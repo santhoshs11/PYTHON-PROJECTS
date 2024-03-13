@@ -1,5 +1,5 @@
 print("hi "+input("what is your name :")+"!"+"\nwelcome to the BAND NAME CREATER APPLICATION...")
-print("tell some about yourself..")
+print("tell me about yourself..")
 city=input("your city : ")
 last_name=input("your last name : ")
-print("your band name is : "+city+" " +last_name +" BAND")
+print(f"your band name is : "+ city+" " +last_name +" BAND")

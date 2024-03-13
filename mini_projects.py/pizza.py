@@ -1,7 +1,10 @@
 print("Thank you for choosing Python Pizza Deliveries!")
-size = input() 
-add_pepperoni = input() 
-extra_cheese = input() 
+size1 = input('SIZE : ')
+size = size1.upper()
+add_pepperoni1 = input('do you want pepperoni ? : ')
+add_pepperoni = add_pepperoni1.upper() 
+extra_cheese1 = input('Add extra cheese : ')
+extra_cheese = extra_cheese1.upper()
 
 price=0
 if size=="S" :
