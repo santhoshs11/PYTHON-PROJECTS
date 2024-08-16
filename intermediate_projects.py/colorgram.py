@@ -1,10 +1,11 @@
-from turtle import Turtle as t,Screen as s
+from turtle import Turtle ,Screen 
 
 
-
+t=Turtle()
+s=Screen()
 def function():
     t.forward(10)
 
 s.listen()
-s.onkey(key ='space',Fun =function())
+s.onkey(function,'space')
 s.exitonclick()
